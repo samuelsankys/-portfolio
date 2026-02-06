@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Samuel Sankys - Desenvolvedor Fullstack | React.js, Node.js, TypeScript, Flutter">
+    <meta name="keywords" content="desenvolvedor, fullstack, react, node, typescript, flutter, javascript">
+    <meta name="author" content="Samuel de Souza Santana">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Samuel Sankys | Desenvolvedor Fullstack">
+    <meta property="og:description" content="Desenvolvedor Fullstack apaixonado por criar soluções digitais">
+    <meta property="og:type" content="website">
+
+    <title>Samuel Sankys | Desenvolvedor Fullstack</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>samuel<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projetos</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Menu">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting">Olá, eu sou</p>
+                <h1 class="hero-title">Samuel Sankys</h1>
+                <h2 class="hero-subtitle">Desenvolvedor Fullstack</h2>
+                <p class="hero-bio">
+                    <span class="code-comment">// In relationship with console.log( )</span>
+                </p>
+                <p class="hero-description">
+                    Transformando ideias em código e café em funcionalidades.
+                    Especializado em criar experiências digitais completas, do banco de dados à interface.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                    <a href="#contact" class="btn btn-secondary">Fale Comigo</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/samuelsankys" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="ph ph-github-logo"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/samuelsankys" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="ph ph-linkedin-logo"></i>
+                    </a>
+                    <a href="https://twitter.com/Samuel_sankys" target="_blank" rel="noopener" aria-label="Twitter">
+                        <i class="ph ph-twitter-logo"></i>
+                    </a>
+                    <a href="https://medium.com/@samuelsankys" target="_blank" rel="noopener" aria-label="Medium">
+                        <i class="ph ph-medium-logo"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-window">
+                    <div class="code-header">
+                        <span class="code-dot red"></span>
+                        <span class="code-dot yellow"></span>
+                        <span class="code-dot green"></span>
+                        <span class="code-title">developer.js</span>
+                    </div>
+                    <pre class="code-content"><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  <span class="code-property">name</span>: <span class="code-string">"Samuel Sankys"</span>,
+  <span class="code-property">role</span>: <span class="code-string">"Fullstack Developer"</span>,
+  <span class="code-property">location</span>: <span class="code-string">"Petrolina, PE"</span>,
+  <span class="code-property">skills</span>: [
+    <span class="code-string">"React"</span>, <span class="code-string">"Node.js"</span>,
+    <span class="code-string">"TypeScript"</span>, <span class="code-string">"Flutter"</span>
+  ],
+  <span class="code-property">available</span>: <span class="code-boolean">true</span>
+};
+
+<span class="code-keyword">console</span>.<span class="code-function">log</span>(<span class="code-string">"Let's build something!"</span>);</code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="ph ph-caret-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">01.</span> Sobre Mim
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Sou um desenvolvedor fullstack apaixonado por tecnologia e inovação.
+                        Atualmente trabalho na <strong>Widde</strong>, onde desenvolvo soluções
+                        que impactam positivamente a experiência dos usuários.
+                    </p>
+                    <p>
+                        Minha jornada na programação começou com a curiosidade de entender como
+                        as coisas funcionam. Hoje, essa curiosidade se transformou em uma carreira
+                        dedicada a criar aplicações robustas e interfaces intuitivas.
+                    </p>
+                    <p>
+                        Quando não estou codando, você pode me encontrar estudando novas tecnologias,
+                        como <strong>arquitetura hexagonal</strong> e <strong>Java</strong>,
+                        sempre buscando expandir meus horizontes.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="ph ph-code"></i>
+                        <span class="stat-number" data-target="55">0</span>
+                        <span class="stat-label">Repositórios</span>
+                    </div>
+                    <div class="stat-card">
+                        <i class="ph ph-git-branch"></i>
+                        <span class="stat-number" data-target="5">0</span>
+                        <span class="stat-label">Linguagens</span>
+                    </div>
+                    <div class="stat-card">
+                        <i class="ph ph-trophy"></i>
+                        <span class="stat-number" data-target="3">0</span>
+                        <span class="stat-label">Achievements</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">02.</span> Skills & Tecnologias
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="ph ph-browser"></i> Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">SASS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="ph ph-database"></i> Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="ph ph-device-mobile"></i> Mobile</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">React Native</span>
+                        <span class="skill-tag">Dart</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="ph ph-gear"></i> DevOps & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Postman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">03.</span> Projetos em Destaque
+            </h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+            <div class="projects-cta">
+                <a href="https://github.com/samuelsankys?tab=repositories" target="_blank" rel="noopener" class="btn btn-outline">
+                    Ver Todos os Projetos <i class="ph ph-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">04.</span> Vamos Conversar?
+            </h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    Estou sempre aberto a novas oportunidades, parcerias e projetos interessantes.
+                    Se você tem uma ideia ou apenas quer trocar uma ideia sobre tecnologia,
+                    não hesite em entrar em contato!
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:samuelsankys@gmail.com" class="contact-card">
+                        <i class="ph ph-envelope"></i>
+                        <span>samuelsankys@gmail.com</span>
+                    </a>
+                    <a href="https://linkedin.com/in/samuelsankys" target="_blank" rel="noopener" class="contact-card">
+                        <i class="ph ph-linkedin-logo"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/samuelsankys" target="_blank" rel="noopener" class="contact-card">
+                        <i class="ph ph-github-logo"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                Desenvolvido com <i class="ph ph-heart"></i> por
+                <a href="https://github.com/samuelsankys" target="_blank" rel="noopener">Samuel Sankys</a>
+            </p>
+            <p class="footer-code">
+                <span class="code-comment">// 2024 - Todos os direitos reservados</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</code>
