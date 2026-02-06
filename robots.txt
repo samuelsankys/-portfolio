@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://samuelsankys.github.io/-portfolio/sitemap.xml
